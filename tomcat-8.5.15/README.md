@@ -9,7 +9,7 @@ docker build ./ -t mytomcat
 2. 运行镜像
 
 ```shell
-docker run -d -p 9000:8080 -p 2000:1099 -v .../webapps:/usr/local/tomcat/webapps mytomcat
+docker run -d -p 8080:8080 -v .../webapps:/usr/local/tomcat/webapps mytomcat
 ```
 
 **注意**
